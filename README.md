@@ -1,14 +1,15 @@
 # centerline
-![centerline_example](centerline_example.png)
-Generate geojson centerlines for network-like polygons (e.g. polygon rivers and streets) with Python/scipy.spatial/OGR-shapely - based on the centerline script from python-geospatial-analysis-cookbook (https://github.com/mdiener21/python-geospatial-analysis-cookbook/tree/master/ch08/code) by Michael Diener. I don't have the book but the scripts are available via GitHub. The downloaded scripts were modified to make it work with my shapefiles.
+![centerline_example](centerline_example.png) Generate geojson centerlines for network-like polygons (e.g. polygon rivers and streets) with Python/scipy.spatial/OGR-shapely - based on the centerline script from python-geospatial-analysis-cookbook (https://github.com/mdiener21/python-geospatial-analysis-cookbook/tree/master/ch08/code) by Michael Diener. I don't have the book but the scripts are available via GitHub. The downloaded scripts were modified to make it work with my shapefiles.
 
 ### Output examples 
 
 (would probably need cleaning but the output will make a good start):
 
-[rasterRivers_centerline.geojson!](rasterRivers_centerlines.geojson): centerlines extracted from river networks shapefiles which was based on satelite-imagery-base raster data (see rasterRivers.zip).
+[ChicagoRiverMini_centerline.geojson!](ChicagoRiverMini_centerlines.geojson): centerline extracted from Chicago river network based on Hydro file from the Chicago Data Portal (see ChicagoRiver.zip)
 
-[ChicagoRiver_centerline.geojson!](ChicagoRiver_centerlines.geojson): centerline extracted from Chicago river network based on Hydro file from the Chicago Data Portal (see ChicagoRiver.zip)
+rasterRivers_centerline.geojson: centerlines extracted from river networks shapefiles which was based on satelite-imagery-base raster data (see rasterRivers.zip).
+
+ChicagoRiver_centerline.geojson: centerline extracted from Chicago river network based on Hydro file from the Chicago Data Portal (see ChicagoRiver.zip)
 
 ### References:
 
