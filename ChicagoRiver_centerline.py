@@ -48,7 +48,8 @@ def write_geojson(geojs_file, centerlines):
             geom = centerlines[key]
             newline = {'type': "Feature", 'id': key, 'geometry': mapping(geom), 'properties': {'id': key}}
             out.write(json.dumps(newline))
-            out.write(',')
+            if i < len(centerlines)-1:
+                out.write(',') # comma - only for between lines
         out.write(']}') # add the tail of the FeatureCollection geojson
 
 if __name__ == '__main__':
