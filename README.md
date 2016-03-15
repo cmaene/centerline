@@ -5,7 +5,7 @@
 
 (would probably need cleaning but the output will make a good start):
 
-[test_centerline.geojson!](test_centerlines.geojson): test centerline extracted from raster-base shapefile.
+[test_centerline.geojson!](test_centerlines.geojson): test centerline extracted from [raster-base-shapefile!](test.geojson)
 
 rasterRivers_centerline.geojson: centerlines extracted from river networks shapefiles which was based on satelite-imagery-base raster data (see rasterRivers.zip).
 
