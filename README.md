@@ -1,5 +1,5 @@
 # centerline
-![centerline_example](centerline_example.png) xxx_centerline.py scripts generate geojson centerlines for network-like polygons (e.g. polygon rivers and streets) with Python/scipy.spatial/OGR-shapely - based on the centerline script from python-geospatial-analysis-cookbook (https://github.com/mdiener21/python-geospatial-analysis-cookbook/tree/master/ch08/code) by Michael Diener. I haven't read the book but his scripts are available via GitHub - nice! The downloaded scripts were modified to make it work with my files.
+![centerline_example](centerline_example.png) xxx_centerline.py scripts generate geojson centerlines for network-like polygons (e.g. polygon rivers and streets) with Python/scipy.spatial/OGR-shapely - based on the centerline script from python-geospatial-analysis-cookbook (https://github.com/mdiener21/python-geospatial-analysis-cookbook/tree/master/ch08/code) by Michael Diener. I haven't read the book but his scripts are available via GitHub - nice! The downloaded scripts were modified to make them work with my files.
 
 ### Output examples 
 
